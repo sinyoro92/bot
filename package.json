@@ -1,0 +1,28 @@
+{
+  "name": "web-scrapper",
+  "version": "1.0.0",
+  "description": "Node news crawler api",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index",
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "create-react-app": "^4.0.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "fast-csv": "^4.3.6",
+    "mongoose": "^6.2.10",
+    "mysql": "^2.18.1",
+    "mysql2": "1.6.5",
+    "puppeteer": "^10.0.0",
+    "tailwindcss": "^2.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "axios": "*"
+  }
+}
